@@ -73,8 +73,9 @@ export function NoteForm({ onSubmit, onAddTag, availableTags }: NoteFormProps) {
                     </Form.Group>
                     <Stack direction="horizontal" gap={2} className="justify-content-end">
                         <Button type="submit" variant="primary">Save</Button>
-                        <Link to=".."></Link>
-                        <Button type="button" variant="outline-secondary">Cancel</Button>
+                        <Link to="..">
+                            <Button type="button" variant="outline-secondary">Cancel</Button>
+                        </Link>
                     </Stack>
                 </Stack>
             </Form>
